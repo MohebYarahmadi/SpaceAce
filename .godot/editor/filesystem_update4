@@ -1,4 +1,3 @@
-res://Scenes/UiButton/UiButton.tscn
-res://Scenes/UiButton/uiButton.gd
+res://Scenes/Misc/explosion.gd
+res://Scenes/Misc/Explosion.tscn
 res://Scenes/Main/Main.tscn
-res://Scenes/Main/main.gd

@@ -1,2 +1,4 @@
+AnimatedSprite2D
+AudioStreamPlayer2D      - Matches the "sound" keyword.
 Label
 TextureButton
