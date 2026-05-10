@@ -13,7 +13,7 @@ config_version=5
 config/name="SpaceAce"
 config/description="Starter pack"
 config/tags=PackedStringArray("jumpstarter")
-run/main_scene="uid://2ajn46ojd0r2"
+run/main_scene="uid://b4on2i2yykp6r"
 config/features=PackedStringArray("4.5", "Mobile")
 config/icon="uid://cf5ua6nbkyovw"
 
@@ -27,12 +27,15 @@ GameManager="*res://Globals/GameManager.gd"
 
 window/size/viewport_width=640
 window/size/viewport_height=480
+window/size/window_width_override=960
+window/size/window_height_override=720
 window/stretch/mode="viewport"
 
 [editor]
 
+naming/node_name_num_separator=2
 naming/scene_name_casing=1
-naming/script_name_casing=1
+naming/script_name_casing=4
 
 [file_customization]
 

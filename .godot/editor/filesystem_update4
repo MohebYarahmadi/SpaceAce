@@ -1,1 +1,4 @@
+res://Scenes/UiButton/UiButton.tscn
+res://Scenes/UiButton/uiButton.gd
 res://Scenes/Main/Main.tscn
+res://Scenes/Main/main.gd
