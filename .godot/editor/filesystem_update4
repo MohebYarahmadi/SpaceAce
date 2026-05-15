@@ -1,3 +1,4 @@
-res://Scenes/Misc/explosion.gd
 res://Scenes/Misc/Explosion.tscn
-res://Scenes/Main/Main.tscn
+res://Scenes/Misc/explosion.gd
+res://Scenes/ObjectMaker/ObjectMaker.tscn
+res://Scenes/ObjectMaker/ObjectMaker.gd

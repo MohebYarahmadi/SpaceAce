@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1778399283
+::res://::1778478280
 icon.png::CompressedTexture2D::5186932906419557464::1677136158::1777959689::1::::<><><>0<>0<>9add14be54c4f9b6007e95c3b8c7cab4<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
 ::res://assets/::1777959624
 ::res://assets/backgrounds/::1777959689
@@ -96,14 +96,17 @@ SignalHub.gd::GDScript::9049526414642426814::1741878052::0::1::::<>Node<><>0<>0<
 ::res://Resources/::1778396552
 label_32_white.tres::LabelSettings::6563180631242961204::1778395979::0::1::::<><><>0<>0<><>::uid://bfhl7psyde182::::res://assets/fonts/gemunu-libre-v8-latin-700.ttf
 title_48_orange.tres::LabelSettings::3210286981373357543::1778396552::0::1::::<><><>0<>0<><>::uid://bfhl7psyde182::::res://assets/fonts/gemunu-libre-v8-latin-700.ttf
-::res://Scenes/::1778395497
+::res://Scenes/::1778399430
 ::res://Scenes/Level/::1777959624
 Level.tscn::PackedScene::4451636438113727355::1741878176::0::1::::<><><>0<>0<><>::uid://cdf2n2vvpqpq3::::res://Scenes/LevelBg/LevelBg.tscn<>uid://cj6s025qtrnja::::res://Scenes/ShakeCam/ShakeCam.tscn<>uid://cs7twesq7bmwk::::res://Scenes/Player/Player.tscn<>uid://c8pkpg6y6ly4y::::res://Scenes/ObjectMaker/ObjectMaker.tscn<>uid://t0l7khnjnye0::::res://assets/sounds/loops/Mercury.wav
 ::res://Scenes/LevelBg/::1777959624
 LevelBg.tscn::PackedScene::4995393812742238664::1741875846::0::1::::<><><>0<>0<><>::uid://bfo2eu48t23pm::::res://assets/backgrounds/spr_stars01.png<>uid://dx6psa1o30grr::::res://assets/backgrounds/spr_stars02.png
-::res://Scenes/Main/::1778396717
+::res://Scenes/Main/::1778399813
 main.gd::GDScript::1452486779164927370::1778396411::0::1::::<>Control<><>0<>0<><>::
-Main.tscn::PackedScene::1895670018196897641::1778396717::0::1::::<><><>0<>0<><>::uid://b2opofve3y3we::::res://assets/backgrounds/GalaxyUno.png<>uid://uxuiljejmecg::::res://Scenes/Main/main.gd<>uid://cim2l3fgfhjif::::res://Scenes/UiButton/UiButton.tscn<>uid://sqr4aejsdpl5::::res://Scenes/Sun/Sun.tscn<>uid://bl0c7s6ypevb8::::res://Resources/title_48_orange.tres<>uid://ch61rkn7lovsl::::res://assets/sounds/loops/TitleScreen.mp3
+Main.tscn::PackedScene::1895670018196897641::1778399813::0::1::::<><><>0<>0<><>::uid://b2opofve3y3we::::res://assets/backgrounds/GalaxyUno.png<>uid://uxuiljejmecg::::res://Scenes/Main/main.gd<>uid://cim2l3fgfhjif::::res://Scenes/UiButton/UiButton.tscn<>uid://sqr4aejsdpl5::::res://Scenes/Sun/Sun.tscn<>uid://bl0c7s6ypevb8::::res://Resources/title_48_orange.tres<>uid://ch61rkn7lovsl::::res://assets/sounds/loops/TitleScreen.mp3
+::res://Scenes/Misc/::1778399774
+explosion.gd::GDScript::3174114854210782545::1778399774::0::1::::<>Node2D<><>0<>0<><>::
+Explosion.tscn::PackedScene::2021913599829757500::1778399773::0::1::::<><><>0<>0<><>::uid://blhthclq02vgj::::res://Scenes/Misc/explosion.gd<>uid://bttsfvx0qbcq2::::res://assets/misc/EXPLOSION_ANIMATION.png<>uid://0t10xuyfxqxx::::res://assets/misc/exp2_0.png<>uid://5y11xverjxhw::::res://assets/sounds/explosions/sfx_exp_medium1.wav<>uid://c4qkp4c6n8l6i::::res://assets/sounds/explosions/sfx_exp_medium2.wav<>uid://d1vy2y25mt1wf::::res://assets/sounds/explosions/sfx_exp_medium3.wav<>uid://dkh42ao78n723::::res://assets/sounds/explosions/sfx_exp_medium4.wav<>uid://bmhwa58elr6tf::::res://assets/sounds/explosions/sfx_exp_medium5.wav
 ::res://Scenes/ObjectMaker/::1777959624
 ObjectMaker.gd::GDScript::5020798803484173693::1741876630::0::1::::<>Node2D<><>0<>0<><>::
 ObjectMaker.tscn::PackedScene::7120673194749780954::1741875958::0::1::::<><><>0<>0<><>::uid://cdsd28dgot1xp::::res://Scenes/ObjectMaker/ObjectMaker.gd
