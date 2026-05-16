@@ -4,3 +4,5 @@ res://Scenes/Misc/Explosion.tscn
 res://Scenes/ObjectMaker/ObjectMaker.gd
 res://Scenes/Level/Level.tscn
 res://Scenes/Level/level.gd
+res://Scenes/Projectile/Projectile.tscn
+res://Scenes/Projectile/projectile.gd
