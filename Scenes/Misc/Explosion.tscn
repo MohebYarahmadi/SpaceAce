@@ -189,6 +189,7 @@ script = ExtResource("1_6x8uu")
 
 [node name="Sound" type="AudioStreamPlayer2D" parent="."]
 stream = SubResource("AudioStreamRandomizer_nt3v2")
+volume_db = -21.895
 autoplay = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
