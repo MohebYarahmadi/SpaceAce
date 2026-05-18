@@ -1,5 +1,7 @@
-res://Scenes/PowerUp
+res://assets/lasers
 res://Scenes/Projectile
+res://Scenes/BulletBase
+res://Scenes/PowerUp
 res://Scenes/Misc
 res://assets/misc
 res://Resources

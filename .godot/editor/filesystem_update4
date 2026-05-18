@@ -1,10 +1,5 @@
-res://Scenes/ObjectMaker/ObjectMaker.tscn
-res://Globals/SignalHub.gd
-res://Scenes/Misc/Explosion.tscn
-res://Scenes/ObjectMaker/ObjectMaker.gd
-res://Scenes/Level/Level.tscn
-res://Scenes/Level/level.gd
-res://Scenes/Projectile/Projectile.tscn
-res://Scenes/Projectile/projectile.gd
-res://Scenes/PowerUp/PowerUp.tscn
-res://Scenes/PowerUp/powerUp.gd
+res://Scenes/BulletBase/BulletBase.tscn
+res://Scenes/BulletBase/bulletBase.gd
+res://Scenes/Projectile/BombBullet.tscn
+res://Scenes/Projectile/BulletPlayer.tscn
+res://Scenes/Projectile/BulletEnemy.tscn
