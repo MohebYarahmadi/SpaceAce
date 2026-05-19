@@ -1,5 +1,10 @@
 res://Scenes/BulletBase/BulletBase.tscn
 res://Scenes/BulletBase/bulletBase.gd
-res://Scenes/Projectile/BombBullet.tscn
+res://Scenes/Level/Level.tscn
+res://Scenes/Player/Player.gd
 res://Scenes/Projectile/BulletPlayer.tscn
+res://Globals/SignalHub.gd
+res://Scenes/ObjectMaker/ObjectMaker.gd
+res://Scenes/Level/level.gd
 res://Scenes/Projectile/BulletEnemy.tscn
+res://Scenes/Projectile/BombBullet.tscn

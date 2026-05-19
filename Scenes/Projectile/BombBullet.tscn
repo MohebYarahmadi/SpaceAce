@@ -1,6 +1,7 @@
-[gd_scene load_steps=8 format=3 uid="uid://yk2ghb23ai4g"]
+[gd_scene load_steps=10 format=3 uid="uid://yk2ghb23ai4g"]
 
 [ext_resource type="PackedScene" uid="uid://w84i11hwh3xw" path="res://Scenes/BulletBase/BulletBase.tscn" id="1_x2vt6"]
+[ext_resource type="Script" uid="uid://ccorpx10lxxff" path="res://Scenes/Projectile/bombBullet.gd" id="2_i8l7l"]
 [ext_resource type="Texture2D" uid="uid://cdbm8frqf8tqn" path="res://assets/lasers/circle_bomb_red-Sheet.png" id="2_k84ne"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_i8l7l"]
@@ -39,10 +40,13 @@ animations = [{
 "speed": 8.0
 }]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_i8l7l"]
+radius = 7.071068
+
 [node name="BombBullet" instance=ExtResource("1_x2vt6")]
 collision_layer = 4
 collision_mask = 33
-script = null
+script = ExtResource("2_i8l7l")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." index="1"]
 scale = Vector2(0.5, 0.5)
@@ -50,3 +54,6 @@ sprite_frames = SubResource("SpriteFrames_3dj57")
 autoplay = "default"
 frame = 2
 frame_progress = 0.22820106
+
+[node name="CollisionShape2D" parent="." index="2"]
+shape = SubResource("CircleShape2D_i8l7l")

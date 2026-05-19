@@ -6,6 +6,9 @@ signal on_score_updated(v: int)
 signal on_create_explosion(pos: Vector2, anim_name: String)
 signal on_create_powerup(pos: Vector2, pu_type: PowerUp.PowerUpType)
 signal on_create_powerup_random(pos: Vector2)
+signal on_create_bullet(
+	pos: Vector2, dir: Vector2, speed: float, bullet_type: BulletBase.BulletType
+)
 
 
 func emit_on_player_hit(v: int) -> void:
@@ -26,3 +29,8 @@ func emit_on_create_powerup(pos: Vector2, pu_type: PowerUp.PowerUpType) -> void:
 
 func emit_on_create_powerup_random(pos: Vector2) -> void:
 	on_create_powerup_random.emit(pos)
+
+func emit_on_create_bullet(
+	pos: Vector2, dir: Vector2, speed: float, bullet_type: BulletBase.BulletType
+) -> void:
+	on_create_bullet.emit(pos, dir, speed, bullet_type)

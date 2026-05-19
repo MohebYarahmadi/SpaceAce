@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1779082028
+::res://::1779171120
 icon.png::CompressedTexture2D::5186932906419557464::1677136158::1777959689::1::::<><><>0<>0<>9add14be54c4f9b6007e95c3b8c7cab4<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
 ::res://assets/::1777959624
 ::res://assets/backgrounds/::1777959689
@@ -96,7 +96,10 @@ SignalHub.gd::GDScript::9049526414642426814::1778917940::0::1::::<>Node<><>0<>0<
 ::res://Resources/::1778396552
 label_32_white.tres::LabelSettings::6563180631242961204::1778395979::0::1::::<><><>0<>0<><>::uid://bfhl7psyde182::::res://assets/fonts/gemunu-libre-v8-latin-700.ttf
 title_48_orange.tres::LabelSettings::3210286981373357543::1778396552::0::1::::<><><>0<>0<><>::uid://bfhl7psyde182::::res://assets/fonts/gemunu-libre-v8-latin-700.ttf
-::res://Scenes/::1778915557
+::res://Scenes/::1779082875
+::res://Scenes/BulletBase/::1779082941
+bulletBase.gd::GDScript::1037613043416268236::1779082941::0::1::::BulletBase<>Projectile<><>0<>0<><>::
+BulletBase.tscn::PackedScene::1614055511181925900::1779082941::0::1::::<><><>0<>0<><>::uid://bkd05hr71ghaq::::res://Scenes/Projectile/Projectile.tscn<>uid://o1vlnr2d6ahw::::res://Scenes/BulletBase/bulletBase.gd
 ::res://Scenes/Level/::1778918253
 level.gd::GDScript::6181745758559568797::1778918253::0::1::::<>Node2D<><>0<>0<><>::
 Level.tscn::PackedScene::4451636438113727355::1778918253::0::1::::<><><>0<>0<><>::uid://cdf2n2vvpqpq3::::res://Scenes/LevelBg/LevelBg.tscn<>uid://cucqpjulej4u0::::res://Scenes/Level/level.gd<>uid://cj6s025qtrnja::::res://Scenes/ShakeCam/ShakeCam.tscn<>uid://cs7twesq7bmwk::::res://Scenes/Player/Player.tscn<>uid://c8pkpg6y6ly4y::::res://Scenes/ObjectMaker/ObjectMaker.tscn<>uid://t0l7khnjnye0::::res://assets/sounds/loops/Mercury.wav
@@ -120,7 +123,10 @@ Player.tscn::PackedScene::6103493789998831918::1741875934::0::1::::<><><>0<>0<><
 ::res://Scenes/PowerUp/::1778918349
 powerUp.gd::GDScript::6441563072291730885::1778917732::0::1::::PowerUp<>Projectile<><>0<>0<><>::
 PowerUp.tscn::PackedScene::5698843296185785286::1778918349::0::1::::<><><>0<>0<><>::uid://bkd05hr71ghaq::::res://Scenes/Projectile/Projectile.tscn<>uid://cx1luqxuknmgb::::res://Scenes/PowerUp/powerUp.gd<>uid://bcy8wtnoerd3r::::res://assets/misc/shield_gold.png<>uid://nek65avy55x2::::res://assets/sounds/powerup/power_up_deploy.wav
-::res://Scenes/Projectile/::1778912683
+::res://Scenes/Projectile/::1779085619
+BombBullet.tscn::PackedScene::1706826468893938400::1779085619::0::1::::<><><>0<>0<><>::uid://w84i11hwh3xw::::res://Scenes/BulletBase/BulletBase.tscn<>uid://cdbm8frqf8tqn::::res://assets/lasers/circle_bomb_red-Sheet.png
+BulletEnemy.tscn::PackedScene::2354060862446332090::1779085602::0::1::::<><><>0<>0<><>::uid://w84i11hwh3xw::::res://Scenes/BulletBase/BulletBase.tscn<>uid://chepbnhoqfmky::::res://assets/lasers/laserRed03.png
+BulletPlayer.tscn::PackedScene::7994098393424333710::1779085580::0::1::::<><><>0<>0<><>::uid://w84i11hwh3xw::::res://Scenes/BulletBase/BulletBase.tscn<>uid://cacd27vshqpk4::::res://assets/lasers/laserBlue03.png
 projectile.gd::GDScript::5561834247084104478::1778912612::0::1::::Projectile<>Area2D<><>0<>0<><>::
 Projectile.tscn::PackedScene::3096074147385961020::1778912683::0::1::::<><><>0<>0<><>::uid://cligukwnb46ec::::res://Scenes/Projectile/projectile.gd<>uid://qq0gjyel2fm6::::res://Scenes/OutOfTime/OutOfTime.tscn
 ::res://Scenes/ShakeCam/::1777959625
