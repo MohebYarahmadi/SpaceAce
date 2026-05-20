@@ -11,8 +11,8 @@ func _unhandled_input(event: InputEvent) -> void:
 		#SignalHub.emit_on_create_powerup_random(Vector2(400, 100))
 		
 		SignalHub.emit_on_create_bullet(
-			Vector2(100, 400),
-			Vector2(1, -1).normalized(),
+			Vector2(315, 100),
+			Vector2.DOWN,	# is already normalized
 			100.0,
 			BulletBase.BulletType.Bomb
 		)

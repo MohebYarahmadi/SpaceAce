@@ -19,3 +19,8 @@ func _process(delta: float) -> void:
 func setup(dir: Vector2, speed: float):
 	_direction = dir
 	_speed = speed
+
+
+func blow_up() -> void:
+	SignalHub.emit_on_create_explosion(global_position, Explosion.EXPLODE)
+	super()
