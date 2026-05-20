@@ -4,3 +4,4 @@ res://Scenes/Level/Level.tscn
 res://Scenes/Level/level.gd
 res://Scenes/Player/Player.tscn
 res://Scenes/Misc/Explosion.tscn
+res://Scenes/HomingMissile/HomingMissile.tscn
