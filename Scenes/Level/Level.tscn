@@ -26,4 +26,4 @@ volume_db = -10.0
 autoplay = true
 
 [node name="HomingMissile" parent="." instance=ExtResource("7_8gphe")]
-position = Vector2(236, 227)
+position = Vector2(483, 132)
