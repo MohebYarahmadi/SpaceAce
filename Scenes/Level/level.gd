@@ -8,7 +8,7 @@ func _unhandled_input(event: InputEvent) -> void:
 		#SignalHub.emit_on_create_powerup(Vector2(200, 100), PowerUp.PowerUpType.Health)
 		#SignalHub.emit_on_create_powerup(Vector2(300, 100), PowerUp.PowerUpType.Shield)
 		
-		#SignalHub.emit_on_create_powerup_random(Vector2(400, 100))
+		SignalHub.emit_on_create_powerup_random(Vector2(315, 100))
 		
 		SignalHub.emit_on_create_bullet(
 			Vector2(315, 100),
