@@ -12,22 +12,22 @@ var _health: int = start_health
 
 func _ready() -> void:
 	disable_shield()
+	#enable_shield()	# For testing
 
 
 func enable_shield() -> void:
-	_health = start_health
 	animation_player.play("RESET")
-	# TODO: enable collision
-	
+	_health = start_health
 	timer.start()
+	SpaceUtils.toggle_area2d(self, true)
 	show()
 	sound.play()
 
 
 func disable_shield() -> void:
 	timer.stop()
+	SpaceUtils.toggle_area2d(self, false)
 	hide()
-	# TODO: disable collision
 	
 
 

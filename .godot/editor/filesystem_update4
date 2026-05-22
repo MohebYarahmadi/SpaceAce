@@ -1,5 +1,5 @@
 res://Scenes/Shield/Shield.tscn
-res://Scenes/Shield/shield.gd
 res://Scenes/Player/Player.tscn
+res://Scenes/Player/Player.gd
 res://Scenes/Level/Level.tscn
 res://Scenes/Level/level.gd
