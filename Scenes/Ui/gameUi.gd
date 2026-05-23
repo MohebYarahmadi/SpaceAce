@@ -1,8 +1,15 @@
 extends Control
 
-func _ready() -> void:
-	pass
+@onready var health_bar: HealthBar = $ColorRect/MarginContainer/HealthBar
+
+
+func _enter_tree() -> void:
+	SignalHub.on_player_hit.connect(player_hit)
+
+
+func player_hit(v: int) -> void:
+	health_bar.take_damage(v)
 
 
 func _on_health_bar_died() -> void:
-	print("Died")
+	print("Player DIED")

@@ -36,7 +36,6 @@ custom_minimum_size = Vector2(128, 15)
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 4
-start_health = 0
 
 [node name="Label" type="Label" parent="ColorRect/MarginContainer"]
 layout_mode = 2

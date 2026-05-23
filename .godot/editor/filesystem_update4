@@ -3,3 +3,6 @@ res://Scenes/HealthBar/HealthBar.tscn
 res://Scenes/HealthBar/healthBar.gd
 res://Scenes/Level/Level.tscn
 res://Scenes/Ui/gameUi.gd
+res://Scenes/Player/Player.tscn
+res://Scenes/Player/Player.gd
+res://Scenes/Level/level.gd

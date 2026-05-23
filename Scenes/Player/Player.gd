@@ -27,4 +27,8 @@ func _on_area_entered(area: Area2D) -> void:
 		match area.power_up_type:
 			PowerUp.PowerUpType.Shield:
 				shield.enable_shield()
+	elif area is Projectile:
+		SignalHub.emit_on_player_hit(area.get_damage())
+			
+			
 				
