@@ -1,5 +1,5 @@
-res://Scenes/Shield/Shield.tscn
-res://Scenes/Player/Player.tscn
-res://Scenes/Player/Player.gd
+res://Scenes/Ui/GameUi.tscn
+res://Scenes/HealthBar/HealthBar.tscn
+res://Scenes/HealthBar/healthBar.gd
 res://Scenes/Level/Level.tscn
-res://Scenes/Level/level.gd
+res://Scenes/Ui/gameUi.gd

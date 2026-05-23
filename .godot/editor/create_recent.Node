@@ -1,3 +1,8 @@
+CanvasLayer
+Label
+MarginContainer
+ColorRect
+TextureProgressBar
 AnimationPlayer
 Timer
 AudioStreamPlayer2D      - Matches the "sound" keyword.
@@ -8,6 +13,3 @@ CPUParticles2D
 AudioStreamPlayer2D
 AnimatedSprite2D
 Projectile
-VisibleOnScreenNotifier2D
-Label
-TextureButton

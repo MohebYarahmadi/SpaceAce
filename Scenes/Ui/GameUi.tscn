@@ -1,0 +1,47 @@
+[gd_scene load_steps=4 format=3 uid="uid://yuu178je71jn"]
+
+[ext_resource type="Script" uid="uid://6hhgo07hj1e2" path="res://Scenes/Ui/gameUi.gd" id="1_56euo"]
+[ext_resource type="PackedScene" uid="uid://dlb66fbdnj3v4" path="res://Scenes/HealthBar/HealthBar.tscn" id="1_ycduy"]
+[ext_resource type="LabelSettings" uid="uid://c0rivj1nfj61m" path="res://Resources/label_32_white.tres" id="2_56euo"]
+
+[node name="GameUi" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_56euo")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(0, 48)
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+grow_horizontal = 2
+color = Color(0.19394687, 0.19394687, 0.19394687, 0.39215687)
+
+[node name="MarginContainer" type="MarginContainer" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 18
+theme_override_constants/margin_right = 18
+
+[node name="HealthBar" parent="ColorRect/MarginContainer" instance=ExtResource("1_ycduy")]
+custom_minimum_size = Vector2(128, 15)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+start_health = 0
+
+[node name="Label" type="Label" parent="ColorRect/MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+text = "00000"
+label_settings = ExtResource("2_56euo")
+
+[connection signal="died" from="ColorRect/MarginContainer/HealthBar" to="." method="_on_health_bar_died"]
