@@ -5,11 +5,11 @@ func _unhandled_input(event: InputEvent) -> void:
 		#SignalHub.emit_on_create_explosion(Vector2(100, 200), Explosion.BOOM)
 		#SignalHub.emit_on_create_explosion(Vector2(200, 300), Explosion.EXPLODE)
 		
-		#SignalHub.emit_on_create_powerup(Vector2(200, 100), PowerUp.PowerUpType.Health)
+		SignalHub.emit_on_create_powerup(Vector2(300, 100), PowerUp.PowerUpType.Health)
 		#SignalHub.emit_on_create_powerup(Vector2(300, 100), PowerUp.PowerUpType.Shield)
 		
 		#SignalHub.emit_on_create_powerup_random(Vector2(315, 100))
-		
+	if Input.is_action_just_pressed("shoot"):
 		SignalHub.emit_on_create_bullet(
 			Vector2(315, 100),
 			Vector2.DOWN,	# is already normalized
