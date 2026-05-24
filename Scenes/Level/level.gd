@@ -16,3 +16,6 @@ func _unhandled_input(event: InputEvent) -> void:
 			100.0,
 			BulletBase.BulletType.Bomb
 		)
+		
+	#if Input.is_action_just_pressed("ui_accept") == true:
+		#shoot()
