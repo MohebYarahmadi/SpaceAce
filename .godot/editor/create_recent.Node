@@ -1,10 +1,10 @@
+AnimationPlayer
 AudioStreamPlayer2D
 CanvasLayer
 Label
 MarginContainer
 ColorRect
 TextureProgressBar
-AnimationPlayer
 Timer
 AudioStreamPlayer2D      - Matches the "sound" keyword.
 Sprite2D
