@@ -3,3 +3,5 @@ res://Globals/SignalHub.gd
 res://Scenes/Level/Level.tscn
 res://Scenes/Level/level.gd
 res://Scenes/Player/Player.gd
+res://Scenes/EnemyBase/EnemyBase.tscn
+res://Scenes/EnemyBase/enemyBase.gd
