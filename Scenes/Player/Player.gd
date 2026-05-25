@@ -23,6 +23,7 @@ var _lower_right: Vector2
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	SignalHub.on_player_shoot.connect(shoot)
 	set_limits()
 
 
@@ -31,11 +32,10 @@ func _process(delta: float) -> void:
 	global_position += input * delta * speed
 	global_position = global_position.clamp(_upper_left, _lower_right)
 	
-	if Input.is_action_just_pressed("ui_accept") == true:
-		shoot()
 
 
 func _enter_tree() -> void:
+	#SignalHub.on_player_shoot.connect(shoot)
 	add_to_group(GROUP_NAME)
 
 

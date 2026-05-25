@@ -1,4 +1,5 @@
 res://Scenes/Player/Player.tscn
-res://Scenes/Player/Player.gd
+res://Globals/SignalHub.gd
 res://Scenes/Level/Level.tscn
 res://Scenes/Level/level.gd
+res://Scenes/Player/Player.gd
