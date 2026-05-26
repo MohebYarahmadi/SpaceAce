@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://5i51hvf0s048"]
+
+[ext_resource type="PackedScene" uid="uid://dupi6r00g7ijt" path="res://Scenes/EnemyBase/EnemyBase.tscn" id="1_vr6tb"]
+[ext_resource type="Script" uid="uid://dhfhcmv8pxrrv" path="res://Scenes/Enemies/enemyShip.gd" id="2_otrf3"]
+
+[node name="EnemyShip" instance=ExtResource("1_vr6tb")]
+script = ExtResource("2_otrf3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." index="5"]
+flip_v = true
+
+[node name="LaserTimer" type="Timer" parent="." index="6"]
+one_shot = true

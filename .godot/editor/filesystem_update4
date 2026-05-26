@@ -1,7 +1,6 @@
-res://Scenes/Player/Player.tscn
-res://Globals/SignalHub.gd
+res://Scenes/Enemies/EnemyShip.tscn
+res://Scenes/Enemies/enemyShip.gd
+res://Scenes/Enemies/EnemyZipper.tscn
+res://Scenes/Enemies/EnemyBio.tscn
+res://Scenes/Enemies/EnemyBomber.tscn
 res://Scenes/Level/Level.tscn
-res://Scenes/Level/level.gd
-res://Scenes/Player/Player.gd
-res://Scenes/EnemyBase/EnemyBase.tscn
-res://Scenes/EnemyBase/enemyBase.gd
