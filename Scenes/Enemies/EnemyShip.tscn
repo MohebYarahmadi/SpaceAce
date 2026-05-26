@@ -5,6 +5,14 @@
 
 [node name="EnemyShip" instance=ExtResource("1_vr6tb")]
 script = ExtResource("2_otrf3")
+shoots_at_player = false
+aims_at_player = false
+bullet_type = 1
+bullet_speed = 120.0
+bullet_direction = Vector2(0, 1)
+bullet_wait_time = 3.0
+bullet_wait_time_var = 0.5
+power_up_chance = 0.9
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." index="5"]
 flip_v = true
