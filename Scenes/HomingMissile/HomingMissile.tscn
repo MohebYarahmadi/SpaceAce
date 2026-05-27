@@ -1,0 +1,56 @@
+[gd_scene load_steps=8 format=3 uid="uid://cve7ouq6n6baf"]
+
+[ext_resource type="PackedScene" uid="uid://bkd05hr71ghaq" path="res://Scenes/Projectile/Projectile.tscn" id="1_atcv3"]
+[ext_resource type="Texture2D" uid="uid://bqywi64wvxcqj" path="res://assets/lasers/spaceMissiles_040.png" id="2_028iy"]
+[ext_resource type="Script" uid="uid://d3hdvnpswk2c5" path="res://Scenes/HomingMissile/homingMissile.gd" id="2_ufj55"]
+[ext_resource type="Texture2D" uid="uid://b0hlsmrvemel0" path="res://assets/misc/ParticleDot.png" id="3_m0p1j"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_m0p1j"]
+radius = 6.0
+height = 34.0
+
+[sub_resource type="Curve" id="Curve_ufj55"]
+_data = [Vector2(0, 0.43157893), 0.0, 0.0, 0, 0, Vector2(0.2647059, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.67368424), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="Gradient" id="Gradient_d6dh4"]
+offsets = PackedFloat32Array(0, 0.442029)
+colors = PackedColorArray(0.91, 0.20930003, 0.22097816, 1, 1, 1, 0, 1)
+
+[node name="HomingMissile" instance=ExtResource("1_atcv3")]
+collision_layer = 4
+collision_mask = 3
+script = ExtResource("2_ufj55")
+
+[node name="Sprite2D" parent="." index="0"]
+rotation = 1.5707964
+texture = ExtResource("2_028iy")
+
+[node name="CollisionShape2D" parent="." index="1"]
+rotation = 1.5707964
+shape = SubResource("CapsuleShape2D_m0p1j")
+
+[node name="OutOfTime" parent="." index="2"]
+life_s = 200.0
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="." index="4"]
+position = Vector2(-15, 0)
+rotation = 1.5707964
+amount = 48
+texture = ExtResource("3_m0p1j")
+lifetime = 0.3
+explosiveness = 0.1
+randomness = 0.3
+lifetime_randomness = 0.1
+emission_shape = 1
+emission_sphere_radius = 0.2
+direction = Vector2(0, 1)
+spread = 5.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 140.0
+initial_velocity_max = 180.0
+scale_amount_min = 0.2
+scale_amount_max = 0.4
+scale_amount_curve = SubResource("Curve_ufj55")
+color = Color(1, 0.8627451, 0.21568628, 1)
+color_ramp = SubResource("Gradient_d6dh4")

@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=3 uid="uid://8slbkqdm36uw"]
+
+[ext_resource type="PackedScene" uid="uid://w84i11hwh3xw" path="res://Scenes/BulletBase/BulletBase.tscn" id="1_sv0qj"]
+[ext_resource type="Texture2D" uid="uid://chepbnhoqfmky" path="res://assets/lasers/laserRed03.png" id="2_x5nud"]
+[ext_resource type="Script" uid="uid://bbvjglmlhnma" path="res://Scenes/Projectile/bulletEnemy.gd" id="2_xm7ob"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xm7ob"]
+size = Vector2(4, 16)
+
+[node name="BulletEnemy" instance=ExtResource("1_sv0qj")]
+collision_layer = 4
+collision_mask = 33
+script = ExtResource("2_xm7ob")
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_x5nud")
+
+[node name="CollisionShape2D" parent="." index="1"]
+shape = SubResource("RectangleShape2D_xm7ob")
