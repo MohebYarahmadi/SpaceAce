@@ -17,5 +17,5 @@ func _unhandled_input(event: InputEvent) -> void:
 			BulletBase.BulletType.Bomb
 		)
 		
-	#if Input.is_action_just_pressed("ui_accept") == true:
-		#shoot()
+	if Input.is_action_just_pressed("ui_accept") == true:
+		SignalHub.emit_on_player_shoot()

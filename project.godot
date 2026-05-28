@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="SpaceAce"
+config/name="SpaceAce (4.5)"
 config/description="Starter pack"
 config/tags=PackedStringArray("jumpstarter")
 run/main_scene="uid://b4on2i2yykp6r"
