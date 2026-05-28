@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1779774296
+::res://::1779948655
 icon.png::CompressedTexture2D::5186932906419557464::1779610392::1779610392::1::::<><><>0<>0<>9add14be54c4f9b6007e95c3b8c7cab4<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
 ::res://assets/::1779610394
 ::res://assets/backgrounds/::1779610394
@@ -96,10 +96,16 @@ SignalHub.gd::GDScript::9049526414642426814::1779690283::0::1::::<>Node<><>0<>0<
 ::res://Resources/::1779610394
 label_32_white.tres::LabelSettings::6563180631242961204::1779610394::0::1::::<><><>0<>0<><>::uid://bfhl7psyde182::::res://assets/fonts/gemunu-libre-v8-latin-700.ttf
 title_48_orange.tres::LabelSettings::3210286981373357543::1779610394::0::1::::<><><>0<>0<><>::uid://bfhl7psyde182::::res://assets/fonts/gemunu-libre-v8-latin-700.ttf
-::res://Scenes/::1779690601
+::res://Scenes/::1779774848
 ::res://Scenes/BulletBase/::1779610394
 bulletBase.gd::GDScript::1037613043416268236::1779610394::0::1::::BulletBase<>Projectile<><>0<>0<><>::
 BulletBase.tscn::PackedScene::1614055511181925900::1779610394::0::1::::<><><>0<>0<><>::uid://bkd05hr71ghaq::::res://Scenes/Projectile/Projectile.tscn<>uid://o1vlnr2d6ahw::::res://Scenes/BulletBase/bulletBase.gd
+::res://Scenes/Enemies/::1779779212
+EnemyBio.tscn::PackedScene::3317741118575327989::1779776963::0::1::::<><><>0<>0<><>::uid://5i51hvf0s048::::res://Scenes/Enemies/EnemyShip.tscn<>uid://d35dgeds5jf3u::::res://assets/ships/biomech_1.png<>uid://pt8bc3smj0ji::::res://assets/ships/biomech_2.png<>uid://bc4a1g43qt2rp::::res://assets/ships/biomech_3.png<>uid://cydbbwru8lljc::::res://assets/ships/biomech_4.png
+EnemyBomber.tscn::PackedScene::2972361109626453246::1779776926::0::1::::<><><>0<>0<><>::uid://5i51hvf0s048::::res://Scenes/Enemies/EnemyShip.tscn<>uid://dits7k8byw8v1::::res://assets/ships/bomber_1.png<>uid://cakduing16poj::::res://assets/ships/bomber_2.png<>uid://byxn6pi8avebo::::res://assets/ships/bomber_3.png
+enemyShip.gd::GDScript::7661335100094436515::1779779212::0::1::::EnemyShip<>EnemyBase<><>0<>0<><>::
+EnemyShip.tscn::PackedScene::2124048671963637599::1779779212::0::1::::<><><>0<>0<><>::uid://dupi6r00g7ijt::::res://Scenes/EnemyBase/EnemyBase.tscn<>uid://dhfhcmv8pxrrv::::res://Scenes/Enemies/enemyShip.gd<>uid://da52b8m3s7khp::::res://assets/sounds/lasers/sfx_wpn_laser1.wav<>uid://dffevs145pngu::::res://assets/sounds/lasers/sfx_wpn_laser2.wav<>uid://d0t32p468w0kn::::res://assets/sounds/lasers/sfx_wpn_laser3.wav<>uid://bt8muih1jgeya::::res://assets/sounds/lasers/sfx_wpn_laser4.wav<>uid://1qjcy27abaxl::::res://assets/sounds/lasers/sfx_wpn_laser5.wav
+EnemyZipper.tscn::PackedScene::1033840295130648065::1779775665::0::1::::<><><>0<>0<><>::uid://5i51hvf0s048::::res://Scenes/Enemies/EnemyShip.tscn<>uid://eq7fjur406y::::res://assets/ships/zipper_1.png<>uid://boqfds8f87l23::::res://assets/ships/zipper_2.png<>uid://bf36255ubc5ns::::res://assets/ships/zipper_3.png
 ::res://Scenes/EnemyBase/::1779693513
 enemyBase.gd::GDScript::1056737775566167056::1779693158::0::1::::EnemyBase<>PathFollow2D<><>0<>0<><>::
 EnemyBase.tscn::PackedScene::8594546618366264741::1779693513::0::1::::<><><>0<>0<><>::uid://qq0gjyel2fm6::::res://Scenes/OutOfTime/OutOfTime.tscn<>uid://pb5k1gofwfjk::::res://Scenes/EnemyBase/enemyBase.gd<>uid://dlb66fbdnj3v4::::res://Scenes/HealthBar/HealthBar.tscn
@@ -109,9 +115,9 @@ HealthBar.tscn::PackedScene::7935341559554151951::1779610394::0::1::::<><><>0<>0
 ::res://Scenes/HomingMissile/::1779610394
 homingMissile.gd::GDScript::9139220676696210046::1779610394::0::1::::HomingMissile<>Projectile<><>0<>0<><>::
 HomingMissile.tscn::PackedScene::6257033616295280305::1779610394::0::1::::<><><>0<>0<><>::uid://bkd05hr71ghaq::::res://Scenes/Projectile/Projectile.tscn<>uid://bqywi64wvxcqj::::res://assets/lasers/spaceMissiles_040.png<>uid://d3hdvnpswk2c5::::res://Scenes/HomingMissile/homingMissile.gd<>uid://b0hlsmrvemel0::::res://assets/misc/ParticleDot.png
-::res://Scenes/Level/::1779693497
+::res://Scenes/Level/::1779775919
 level.gd::GDScript::6181745758559568797::1779690325::0::1::::<>Node2D<><>0<>0<><>::
-Level.tscn::PackedScene::4451636438113727355::1779693497::0::1::::<><><>0<>0<><>::uid://cdf2n2vvpqpq3::::res://Scenes/LevelBg/LevelBg.tscn<>uid://cucqpjulej4u0::::res://Scenes/Level/level.gd<>uid://cj6s025qtrnja::::res://Scenes/ShakeCam/ShakeCam.tscn<>uid://cs7twesq7bmwk::::res://Scenes/Player/Player.tscn<>uid://c8pkpg6y6ly4y::::res://Scenes/ObjectMaker/ObjectMaker.tscn<>uid://t0l7khnjnye0::::res://assets/sounds/loops/Mercury.wav<>uid://yuu178je71jn::::res://Scenes/Ui/GameUi.tscn
+Level.tscn::PackedScene::4451636438113727355::1779775919::0::1::::<><><>0<>0<><>::uid://cdf2n2vvpqpq3::::res://Scenes/LevelBg/LevelBg.tscn<>uid://cucqpjulej4u0::::res://Scenes/Level/level.gd<>uid://cj6s025qtrnja::::res://Scenes/ShakeCam/ShakeCam.tscn<>uid://cs7twesq7bmwk::::res://Scenes/Player/Player.tscn<>uid://c8pkpg6y6ly4y::::res://Scenes/ObjectMaker/ObjectMaker.tscn<>uid://t0l7khnjnye0::::res://assets/sounds/loops/Mercury.wav<>uid://yuu178je71jn::::res://Scenes/Ui/GameUi.tscn<>uid://bil3makq1jfs5::::res://Scenes/Enemies/EnemyBomber.tscn<>uid://bnjeygquic5sj::::res://Scenes/Enemies/EnemyBio.tscn<>uid://oy2g0umfwtyf::::res://Scenes/Enemies/EnemyZipper.tscn
 ::res://Scenes/LevelBg/::1779610394
 LevelBg.tscn::PackedScene::4995393812742238664::1779610394::0::1::::<><><>0<>0<><>::uid://bfo2eu48t23pm::::res://assets/backgrounds/spr_stars01.png<>uid://dx6psa1o30grr::::res://assets/backgrounds/spr_stars02.png
 ::res://Scenes/Main/::1779610394

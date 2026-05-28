@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://b4on2i2yykp6r"]
+[gd_scene load_steps=16 format=3 uid="uid://b4on2i2yykp6r"]
 
 [ext_resource type="PackedScene" uid="uid://cdf2n2vvpqpq3" path="res://Scenes/LevelBg/LevelBg.tscn" id="1_3hkb6"]
 [ext_resource type="Script" uid="uid://cucqpjulej4u0" path="res://Scenes/Level/level.gd" id="1_ksici"]
@@ -10,6 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://bil3makq1jfs5" path="res://Scenes/Enemies/EnemyBomber.tscn" id="8_aei0q"]
 [ext_resource type="PackedScene" uid="uid://bnjeygquic5sj" path="res://Scenes/Enemies/EnemyBio.tscn" id="9_s0x6l"]
 [ext_resource type="PackedScene" uid="uid://oy2g0umfwtyf" path="res://Scenes/Enemies/EnemyZipper.tscn" id="10_gyjo4"]
+[ext_resource type="PackedScene" uid="uid://copsjn0l360pt" path="res://Scenes/Enemies/Saucer.tscn" id="11_s0x6l"]
 
 [sub_resource type="Curve2D" id="Curve2D_8gphe"]
 _data = {
@@ -28,6 +29,12 @@ _data = {
 "points": PackedVector2Array(0, 0, 0, 0, -71, 117, 0, 0, 0, 0, 686, 138)
 }
 point_count = 2
+
+[sub_resource type="Curve2D" id="Curve2D_aei0q"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -62, 340, 0, 0, 0, 0, -62, 340, 0, 0, 0, 0, 383, 187, 0, 0, 0, 0, 813, 341)
+}
+point_count = 4
 
 [node name="Level" type="Node2D"]
 script = ExtResource("1_ksici")
@@ -70,3 +77,9 @@ curve = SubResource("Curve2D_lvwdj")
 
 [node name="EnemyZipper" parent="Path2D_3" instance=ExtResource("10_gyjo4")]
 position = Vector2(-71, 117)
+
+[node name="Path2D_4" type="Path2D" parent="."]
+curve = SubResource("Curve2D_aei0q")
+
+[node name="Saucer" parent="Path2D_4" instance=ExtResource("11_s0x6l")]
+position = Vector2(-62.079784, 340.02744)

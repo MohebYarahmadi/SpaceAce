@@ -1,6 +1,6 @@
 res://Scenes/Enemies
-res://assets/ships
 res://Scenes/EnemyBase
+res://assets/ships
 res://Scenes/Ui
 res://Scenes/HealthBar
 res://Scenes/Shield

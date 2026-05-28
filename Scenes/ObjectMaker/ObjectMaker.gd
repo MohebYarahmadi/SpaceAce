@@ -5,6 +5,7 @@ const POWER_UP = preload("uid://cngtd7wacyhf7")
 const BOMB_BULLET = preload("uid://yk2ghb23ai4g")
 const BULLET_ENEMY = preload("uid://8slbkqdm36uw")
 const BULLET_PLAYER = preload("uid://dl5nvrjhgqxqs")
+const HOMING_MISSILE = preload("uid://cve7ouq6n6baf")
 
 const ADD_OBJECT: String = "add_object"
 
@@ -15,6 +16,7 @@ func _ready() -> void:
 	SignalHub.on_create_powerup.connect(create_powerup)
 	SignalHub.on_create_powerup_random.connect(create_powerup_random)
 	SignalHub.on_create_bullet.connect(create_bullet)
+	SignalHub.on_create_homing_missile.connect(create_homing_missile)
 
 
 func add_object(obj: Node, pos: Vector2) -> void:
@@ -55,3 +57,8 @@ func create_bullet(
 	if scene:
 		scene.setup(dir, speed)
 		call_deferred(ADD_OBJECT, scene, pos)
+
+
+func create_homing_missile(pos: Vector2) -> void:
+	var hm: HomingMissile = HOMING_MISSILE.instantiate()
+	call_deferred(ADD_OBJECT, hm, pos)
