@@ -1,2 +1,6 @@
 res://Scenes/Ui/GameUi.tscn
 res://Scenes/Ui/gameUi.gd
+res://Scenes/Player/Player.tscn
+res://Scenes/Player/Player.gd
+res://Scenes/EnemyBase/EnemyBase.tscn
+res://Scenes/EnemyBase/enemyBase.gd
