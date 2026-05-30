@@ -4,3 +4,7 @@ res://Scenes/Player/Player.tscn
 res://Scenes/Player/Player.gd
 res://Scenes/EnemyBase/EnemyBase.tscn
 res://Scenes/EnemyBase/enemyBase.gd
+res://Globals/SignalHub.gd
+res://Scenes/Ui/GameOverUi.tscn
+res://Scenes/Ui/gameOverUi.gd
+res://Scenes/Level/Level.tscn

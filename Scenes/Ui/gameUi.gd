@@ -5,6 +5,10 @@ extends Control
 @onready var score_label: Label = $ColorRect/MarginContainer/ScoreLabel
 
 
+func _ready() -> void:
+	ScoreManager.reset_score()
+
+
 func _enter_tree() -> void:
 	SignalHub.on_player_hit.connect(player_hit)
 	SignalHub.on_player_health_bonus.connect(health_bonus)
@@ -25,4 +29,4 @@ func score_updated(v: int) -> void:
 
 
 func _on_health_bar_died() -> void:
-	print("Player DIED")
+	SignalHub.emit_on_player_died()

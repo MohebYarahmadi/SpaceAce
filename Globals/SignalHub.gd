@@ -12,6 +12,7 @@ signal on_create_bullet(
 signal on_player_health_bonus(v: int)
 signal on_player_shoot
 signal on_create_homing_missile(pos: Vector2)
+signal on_player_died
 
 
 func emit_on_player_hit(v: int) -> void:
@@ -42,3 +43,6 @@ func emit_on_player_shoot() -> void:
 
 func emit_on_create_homig_missile(pos: Vector2) -> void:
 	on_create_homing_missile.emit(pos)
+
+func emit_on_player_died() -> void:
+	on_player_died.emit()
