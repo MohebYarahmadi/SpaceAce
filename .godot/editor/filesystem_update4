@@ -1,8 +1,10 @@
-res://Scenes/Enemies/EnemyZipper.tscn
-res://Scenes/Enemies/EnemyBio.tscn
-res://Scenes/Enemies/EnemyBomber.tscn
-res://Scenes/Enemies/Saucer.tscn
-res://Scenes/Enemies/saucer.gd
+res://Scenes/Ui/GameUi.tscn
+res://Scenes/Ui/gameUi.gd
+res://Scenes/Player/Player.tscn
+res://Scenes/Player/Player.gd
+res://Scenes/EnemyBase/EnemyBase.tscn
+res://Scenes/EnemyBase/enemyBase.gd
 res://Globals/SignalHub.gd
-res://Scenes/ObjectMaker/ObjectMaker.gd
+res://Scenes/Ui/GameOverUi.tscn
+res://Scenes/Ui/gameOverUi.gd
 res://Scenes/Level/Level.tscn

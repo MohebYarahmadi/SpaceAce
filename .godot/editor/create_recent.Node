@@ -1,3 +1,6 @@
+Label
+VBoxContainer
+ColorRect
 Path2D
 Marker2D
 Timer
@@ -9,6 +12,3 @@ CollisionShape2D
 Node2D
 Area2D
 AudioStreamPlayer2D
-PathFollow2D
-CanvasLayer
-Label

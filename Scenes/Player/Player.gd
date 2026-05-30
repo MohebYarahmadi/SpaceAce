@@ -11,6 +11,7 @@ const MARGIN: float = 16.0
 @export var speed: float = 250.0
 @export var bullet_speed: float = 250.0
 @export var bullet_direction := Vector2.UP
+@export var crash_damage: int = 10
 
 @onready var sprite_2d: Sprite2D = $Sprite2D
 @onready var shield: Shield = $Shield
@@ -73,6 +74,5 @@ func _on_area_entered(area: Area2D) -> void:
 				SignalHub.emit_on_player_health_bonus(health_boost)
 	elif area is Projectile:
 		SignalHub.emit_on_player_hit(area.get_damage())
-			
-			
-				
+	elif area.get_parent() is EnemyBase:
+		SignalHub.emit_on_player_hit(area.get_parent().crash_damage)
