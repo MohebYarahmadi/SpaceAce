@@ -3,13 +3,18 @@ extends Control
 @export var wait_time: float = 2.0
 
 @onready var score_label: Label = $VB/ScoreLabel
+@onready var press: Label = $VB/Press
 
 var _can_shoot: bool = false
 
 
 func _unhandled_input(event: InputEvent) -> void:
-	if _can_shoot and event.is_action_pressed("ui_accept"):
+	if event.is_action_pressed("ui_cancel"):
 		GameManager.load_main_scene()
+	if _can_shoot and event.is_action_pressed("ui_accept"):
+		GameManager.load_level_scene()
+	if Input.is_action_just_pressed("pause"):
+		get_tree().paused = !get_tree().paused
 
 
 func _ready() -> void:
@@ -28,3 +33,4 @@ func player_died() -> void:
 		ScoreManager.high_score
 	]
 	score_label.show()
+	press.show()

@@ -51,3 +51,12 @@ text = "00000000000000000000000000000"
 label_settings = ExtResource("2_01e02")
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Press" type="Label" parent="VB"]
+visible = false
+layout_mode = 2
+text = "Shoot  to Restart
+Esc to Main"
+label_settings = ExtResource("2_01e02")
+horizontal_alignment = 1
+vertical_alignment = 1
