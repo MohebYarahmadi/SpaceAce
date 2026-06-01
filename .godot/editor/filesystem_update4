@@ -1,3 +1,8 @@
 res://Classes/EnemyWave.gd
 res://Classes/EnemyWaves.gd
 res://Resources/waves.tres
+res://Scenes/WaveManager/WaveManager.tscn
+res://Scenes/WaveManager/waveManager.gd
+res://Scenes/Enemies/enemyShip.gd
+res://Scenes/Level/Level.tscn
+res://Scenes/Enemies/EnemyBomber.tscn
