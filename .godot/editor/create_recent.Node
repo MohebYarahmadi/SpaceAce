@@ -1,8 +1,8 @@
+VBoxContainer
 Timer
 Path2D
 Node2D
 Label
-VBoxContainer
 ColorRect
 Marker2D
 AnimationTree

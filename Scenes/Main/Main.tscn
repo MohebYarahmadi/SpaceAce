@@ -1,10 +1,11 @@
-[gd_scene load_steps=7 format=3 uid="uid://2ajn46ojd0r2"]
+[gd_scene load_steps=8 format=3 uid="uid://2ajn46ojd0r2"]
 
 [ext_resource type="Texture2D" uid="uid://b2opofve3y3we" path="res://assets/backgrounds/GalaxyUno.png" id="1_i3fi7"]
 [ext_resource type="Script" uid="uid://uxuiljejmecg" path="res://Scenes/Main/main.gd" id="1_o8wgc"]
 [ext_resource type="PackedScene" uid="uid://cim2l3fgfhjif" path="res://Scenes/UiButton/UiButton.tscn" id="2_i3fi7"]
 [ext_resource type="PackedScene" uid="uid://sqr4aejsdpl5" path="res://Scenes/Sun/Sun.tscn" id="2_o8wgc"]
 [ext_resource type="LabelSettings" uid="uid://bl0c7s6ypevb8" path="res://Resources/title_48_orange.tres" id="3_w20t6"]
+[ext_resource type="LabelSettings" uid="uid://dq2lu2wn570r" path="res://Resources/label_24_white.tres" id="4_5s61s"]
 [ext_resource type="AudioStream" uid="uid://ch61rkn7lovsl" path="res://assets/sounds/loops/TitleScreen.mp3" id="4_aw1lf"]
 
 [node name="Main" type="Control"]
@@ -38,11 +39,24 @@ theme_override_constants/margin_top = 24
 theme_override_constants/margin_right = 48
 theme_override_constants/margin_bottom = 24
 
-[node name="Label" type="Label" parent="MC"]
+[node name="VBoxContainer" type="VBoxContainer" parent="MC"]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+
+[node name="Label" type="Label" parent="MC/VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
 text = "SPACE ACE"
 label_settings = ExtResource("3_w20t6")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label_2" type="Label" parent="MC/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Moheb Yarahmadi"
+label_settings = ExtResource("4_5s61s")
 horizontal_alignment = 1
 vertical_alignment = 1
 

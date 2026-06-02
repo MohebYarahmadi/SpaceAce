@@ -3,3 +3,4 @@ res://Scenes/SaucerManager/SaucerManager.tscn
 res://Scenes/SaucerManager/saucerManager.gd
 res://Scenes/Level/Level.tscn
 res://Scenes/Level/level.gd
+res://Scenes/Main/Main.tscn
